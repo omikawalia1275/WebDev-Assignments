@@ -1,0 +1,29 @@
+*{
+   padding:0;
+   margin:0;
+}
+body{
+   background-color: black;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   height :100vh;
+   width :100vw;
+}
+.btn {
+     height:10vh;
+     width:20vw;
+     border:5px solid lightsalmon;
+     background:none;
+     color:lightsalmon;
+     font-size: 40px;
+    
+}
+.btn:hover{
+     transform: translateY(-10px);
+     cursor:pointer;
+     border:3px solid #F5FDB0;
+     box-shadow: 0 10px 10px -8px #e0f521;
+     transition:ease-out .2s;
+     color:#ccc;
+}
